@@ -1,0 +1,94 @@
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+  background-image: url(../../images/into.jpg);
+  background-attachment: fixed;
+  background-size: cover !important;
+  height: 750px;
+  max-width: 100vw;
+  padding-top: 3vw;
+  align-items: center;
+
+  justify-content: center;
+  -webkit-background-size: cover !important;
+  border-bottom: solid 2px rgb(174, 159, 159);
+  box-shadow: 8px rgb(175, 163, 163);
+}
+.resume-nav {
+  width: 50vw;
+  padding: 2vw;
+  margin-left: 25vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(132, 117, 117);
+  background-color: rgb(18, 16, 16);
+}
+
+#resume .resume-nav h1 strong {
+  font-family: "opensans-bold", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+#resume .resume-nav h1 strong {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 0.1vw;
+}
+#resume .resume-nav h3 {
+  font-family: "opensans-bold", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+#resume .info {
+  font: 20px/16px "librebaskerville-italic", serif;
+  padding-top: 1vw;
+  color: #8ca0ae;
+  margin-left: 30px;
+}
+
+#resume .resume-nav p {
+  font: 15px sans-serif;
+  color: #666f76;
+}
+#resume .date {
+  font: 10px/10px "opensans-regular", sans-serif;
+}
+.row {
+  width: 100%;
+  max-width: auto;
+  margin: 0 auto;
+}
+/* column widths */
+
+.row .three {
+  width: 25%;
+}
+
+.row .nine {
+  width: 75%;
+}
+
+.row .twelve {
+  width: 100%;
+}
+
+.btn {
+  background-color: #0cdde4;
+}
+.btn:hover {
+  background-color: #6a5c2b;
+}
+
+/* @media only screen and (max-width: 900px) { */
+/* .resume h1 { */
+/* font: 16px/24px "opensans-bold", sans-serif; */
+/* } */
+/* .resume .main-col { */
+/* padding-right: 5%; */
+/* } */
+/* } */
+/*  */

@@ -1,0 +1,104 @@
+/* A. Header Styles
+-----------------------------------------------*/
+
+header {
+  position: relative;
+  max-width: auto;
+  width: 100vw;
+  max-width: 100vw;
+  height: 750px;
+  background: url(../../images/as.jpg) no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover !important;
+  overflow: hidden;
+  border-bottom: solid 2px rgb(223, 200, 155);
+  box-shadow: 8px rgb(187, 184, 172);
+}
+.banner {
+  padding: 0;
+  display: inline-block;
+  margin: 0 10vw;
+  width: 85%;
+  text-align: center;
+}
+.banner-text {
+  padding-top: 14vw;
+  text-align: left;
+  font-family: "opensans-bold", sans-serif;
+  color: white;
+}
+.banner-icon {
+  max-width: 50vw;
+  justify-content: left;
+  font: 70px "opensans-bold", sans-serif;
+}
+.icon {
+  cursor: pointer;
+  margin: 1.5vw;
+}
+.icon:hover {
+  transform: scale(1.36);
+}
+
+.banner-text h1 {
+  font: 90px "opensans-bold", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 70px;
+}
+.banner-text span {
+  color: #ffca46dc;
+  font: 100px "opensans-bold", sans-serif;
+}
+
+.banner-text h2 span {
+  font: 60px "opensans-bold", sans-serif;
+  color: white;
+}
+.banner-text h4 {
+  font-family: "opensans-bold", sans-serif;
+}
+.banner-text p {
+  font-family: "opensans", sans-serif;
+}
+.banner-icon span {
+  color: #ffca46dc;
+  font: 200px "opensans-bold", sans-serif;
+  position: absolute;
+  right: 10vw;
+  top: 25vw;
+}
+
+/* nav-wrap */
+#nav-wrap {
+  font: 30px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  z-index: 100;
+  position: fixed;
+  width: 100vw;
+  cursor: pointer;
+}
+#nav-wrap:hover {
+  background: #333;
+}
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn {
+  display: none;
+}
+
+ul#nav li a {
+  font: 20px "opensans-bold", sans-serif;
+  display: inline-block;
+  margin: 0.3vw;
+  padding: 0.3vw;
+  line-height: 8px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+}
+
+ul#nav li a:active {
+  border-bottom: 3px solid #b59710;
+}

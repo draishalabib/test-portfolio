@@ -1,0 +1,91 @@
+#project {
+  background-color: rgb(30, 30, 30);
+  width: 100vw;
+  height: 730px;
+  text-align: center;
+  justify-content: center;
+  border-bottom: solid 2px rgb(174, 159, 159);
+  box-shadow: 8px rgb(175, 163, 163);
+}
+.searchinput input {
+  width: 40vw;
+  padding: 0.7vw;
+  outline: none;
+  background-color: aliceblue;
+  box-shadow: 0 2px rgb(4, 103, 202);
+  border-radius: 50px;
+}
+
+.searchinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4vw;
+}
+#icon {
+  font-size: 25px;
+  color: blue;
+  margin-left: 1vw;
+}
+
+#project h1 {
+  font-family: "opensans-bold", sans-serif;
+  color: white;
+  font-size: 3rem;
+  padding-top: 2vw;
+}
+
+#project span {
+  font-family: "opensans-bold", sans-serif;
+  color: white;
+  font-size: 1.3rem;
+}
+.tamplate-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3vw auto;
+  padding-top: 1vw;
+}
+
+.tamplate-container .tamplate {
+  margin: 1.3vw;
+  padding: 0 0.6vw;
+  transition: transform 0.3s;
+}
+.tamplate:hover {
+  transform: scale(1.15);
+}
+.project-tamplate {
+  background-color: rgb(28, 26, 26);
+  margin: 1vw;
+  max-width: 40vw;
+  border-radius: 20px;
+  border: solid 1px rgb(91, 78, 78);
+}
+.tamplate-container .tamplate img {
+  height: 15vw;
+  width: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.tamplate-buttom {
+  align-items: center;
+  display: inline-flex;
+}
+#tamplate-text {
+  font: 15px "opensans-bold", sans-serif;
+  color: white;
+  margin-right: 100px;
+  margin-top: -30px;
+}
+.iconlinks {
+  color: blueviolet;
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: -5px;
+  margin-left: 200px;
+}
+.iconlinks:hover {
+  transform: scale(1.15);
+}
